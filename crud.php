@@ -118,7 +118,7 @@ if(isset($rs_read)){
 
      echo "<tr>";
      $id=$row['id'];
-     echo "<td><a href='http://localhost/projects/poo-php/crud.php?id=$id'>" . $row['id'] . "</a>"."</td>";
+     echo "<td><a href='http://localhost/projects/crud-php-poo/crud.php?id=$id'>" . $row['id'] . "</a>"."</td>";
      echo "<td>".$row['marca']."</td>";
      echo "<td>".$row['color']."</td>";
      echo "<td>".$row['agno']."</td>";
